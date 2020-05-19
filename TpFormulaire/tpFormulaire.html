@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TP Formulaire</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+  </head>
+  <body>
+    <header>Veuillez saisir les informations</header>
+    <form name="forme1" metho="POST" action="calcul.php">
+      <div class="label">Nom: :</div>
+      <input type="text" name="firstName" />
+      <div class="label">Prénom :</div>
+      <input type="text" name="lastName" />
+      <div class="label">Echelle :</div>
+      <input type="number" name="echelle" />
+      <div class="label">Nombre d'enfant :</div>
+      <input type="number" name="NumbreOfChild" />
+      <div class="label">Durée de service :</div>
+      <input type="number" name="ServiceLife" />
+      <br />
+      <br />
+      <input type="submit" name="valider" value="Envoyer" />
+    </form>
+  </body>
+</html>

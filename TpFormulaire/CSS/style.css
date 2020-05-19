@@ -1,0 +1,42 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  background: #2c2c2c;
+  color: aquamarine;
+}
+div {
+  margin-top: 3px;
+}
+.label {
+  margin-left: 40%;
+  text-align: left;
+  padding-top: 5px;
+}
+
+header {
+  background: #023d6d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 100%;
+}
+
+input {
+  padding-top: 5px;
+}
+
+input[type="submit"] {
+  font: inherit;
+  background: #ff0062;
+  border: 1px solid #ff0062;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0.5rem;
+}

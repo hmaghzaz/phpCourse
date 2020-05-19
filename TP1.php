@@ -15,13 +15,30 @@
     }
     echo "la somme est :$sum";
     ?>
-
+    <h2> Execice 1' </h2>
+    <p> calculer la somme : S = 1 + 3 + 5 + 7 + 9 … + 101.</p>
+    <?php
+    $sum = 0;
+    for ($i = 1; $i <= 50; $i++) {
+        $sum = $sum + (2 * $i + 1);
+    }
+    echo "la somme est :$sum";
+    ?>
     <h2> Execice 2 </h2>
     <p> calculer la somme : S = 2 + 4 + 6 + 8 + … +80.</p>
     <?php
     $sum = 0;
     for ($i = 1; $i <= 40; $i++) {
         $sum = $sum + ($i * 2);
+    }
+    echo "la somme est :$sum";
+    ?>
+    <h2> Execice 2' </h2>
+    <p> calculer la somme : S = 1 - 2 - 3 ...-99.</p>
+    <?php
+    $sum = 1;
+    for ($i = 2; $i <= 90; $i++) {
+        $sum = $sum - $i;
     }
     echo "la somme est :$sum";
     ?>
@@ -35,6 +52,17 @@
     }
     echo "la somme est :$sum";
     ?>
+
+    <h2> Execice 3' </h2>
+    <p> calculer la somme : S = 4 + 9 + 16 + 25 + ….. + 144.</p>
+    <?php
+    $sum = 0;
+    for ($i = 2; $i <= 12; $i++) {
+        $sum = $sum + ($i ** 2);
+    }
+    echo "la somme est :$sum";
+    ?>
+
 
     <h2> Execice 4 </h2>
     <p> calculer la somme : S = 1 + 4 + 9 + 16 + … + 100.</p>
